@@ -1,14 +1,14 @@
 .PHONY: run
 run:
 	@echo "Running..."
-	sh scripts/run.sh
+	bash scripts/run.sh
 
 .PHONY: setup
 setup:
 	@echo "Setup..."
-	sh scripts/setup.sh
+	bash scripts/setup.sh
 
 .PHONY: test
 test:
 	@echo "Testing..."
-	sh scripts/test.sh
+	bash scripts/test.sh
