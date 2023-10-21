@@ -8,6 +8,11 @@ setup:
 	@echo "Setup..."
 	bash scripts/setup.sh
 
+.PHONY: serve
+serve:
+	@echo "Serving..."
+	sh scripts/serve.sh
+
 .PHONY: test
 test:
 	@echo "Testing..."
