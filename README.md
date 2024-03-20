@@ -26,7 +26,6 @@ First of all, install VSCode recommended extensions. This includes Linter, Forma
 Then, make virtual env and activate it:
 
 ```bash
-
 python -m venv .venv
 . .venv/bin/activate
 ```
@@ -34,7 +33,7 @@ python -m venv .venv
 Install dependencies:
 
 ```bash
-make setup
+pip install -r requirements.txt
 ```
 
 (Optional) If you use environment variables in `.env` file, run below script to create `.env`
@@ -60,6 +59,12 @@ make run
 >
 > This project *does not* depends on `dotenv-python`. Instead, using below script.
 > `set -a && source ./.env && set +a`
+
+## Jupyter
+
+```bash
+jupyter lab
+```
 
 ## Develop App
 On usual develop, first you activate `venv` first like below.
