@@ -5,9 +5,6 @@ def main():
     # use argument to greet
     greet_to(your_name="Alan")
 
-    # use environment variable to greet
-    greet_from_env()
-
 
 if __name__ == "__main__":
     main()
