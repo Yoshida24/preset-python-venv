@@ -36,7 +36,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-(Optional) If you use environment variables in `.env` file, run below script to create `.env`
+To use environment variables in `.env` file, run below script to create `.env`
 
 ```bash
 if [ ! -f .env ]; then
